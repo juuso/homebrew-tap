@@ -1,27 +1,27 @@
 class Gigawatt < Formula
   desc 'An opinionated theme-aware shell prompt'
   homepage 'https://radiosilenceapp.com/gigawatt/'
-  version '0.1.1'
+  version '0.2.0'
 
   on_macos do
     on_intel do
-      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.1.1/gigawatt-macos-x64.tar.gz'
-      sha256 '32ef4b8a81b6a972eaf387f597af159c75cf87137c2e21ee24f6fbae1b6a5aca'
+      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.2.0/gigawatt-macos-x64.tar.gz'
+      sha256 '448eb325740fb21aad49dfb301b6c08e0196d24a2dfac6f157e59c13931ae124'
     end
     on_arm do
-      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.1.1/gigawatt-macos-arm64.tar.gz'
-      sha256 'a6128c7c840235e4f546af60cda2dc37e4b67828730e83103fa3103d222b90a3'
+      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.2.0/gigawatt-macos-arm64.tar.gz'
+      sha256 'bef231eb4085b6d769c01afbdfe122e9752fa359072fd1f760742fe6f52d37a4'
     end
   end
 
   on_linux do
     on_intel do
-      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.1.1/gigawatt-linux-x64-musl.tar.gz'
-      sha256 '45f336af7bd87f28d9c056fb2f8a34d5ec0361d864b5c17b25b43702b08166be'
+      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.2.0/gigawatt-linux-x64-musl.tar.gz'
+      sha256 '9ca03539e7db0a7f365ffa0b50ca97384126685568332954f3c116a19eb5684a'
     end
     on_arm do
-      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.1.1/gigawatt-linux-arm64-musl.tar.gz'
-      sha256 'e6c61002ec2713acafc194e833c7b3fe783552894301c5f839540a8d93456e04'
+      url 'https://github.com/juuso/gigawatt/releases/download/gigawatt-v0.2.0/gigawatt-linux-arm64-musl.tar.gz'
+      sha256 'd2f04c7ad79dbd05d8fbf90a0d67df2dcd579ab18f5a298ac09042916fb0b503'
     end
   end
 
